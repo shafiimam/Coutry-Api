@@ -1,0 +1,24 @@
+#countries {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px 20px;
+}
+
+.country {
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.country-name {
+    color: blue;
+    font-size: 30px;
+}
+
+.flag {
+    background-size: cover;
+    height: 30px;
+    width: 55px;
+}
